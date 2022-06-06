@@ -1,0 +1,18 @@
+table, th, td{
+    border: 1px solid #ffffff;
+    border-collapse: collapse;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.dados-tabelas{
+    background-color: #424250;
+}
+
+.cabecalho-tabela-moda{
+    background-color: #BB86FC;
+}
+
+.cabecalho-tabela-casa{
+    background-color: #00C4B4;
+}
