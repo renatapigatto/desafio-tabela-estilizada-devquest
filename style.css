@@ -1,26 +1,13 @@
-/* .tabela-padrao{
-    color: #ffffff;
+.tabela-padrao td{
+    background-color: #424250;
     padding: 5px;
+    color: #ffffff;
 }
 
 .tabela-padrao th{
-    border: 1px solid #ffffff;
-    border-collapse: collapse;
-    color: #ffffff;
     padding: 5px;
-}
-
-.tabela-padrao td{
-    border: 1px solid #ffffff;
-    border-collapse: collapse;
     color: #ffffff;
-    padding: 5px;
-    background-color: #424250;
 }
-
-.dados-tabelas{
-    background-color: #424250;
-} */
 
 .cabecalho-tabela-moda{
     background-color: #BB86FC;
