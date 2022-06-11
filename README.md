@@ -30,3 +30,42 @@ Uma coisa interessante que aconteceu durante os meus testes das classes foi perc
 que faz com que as células compartilhem de uma borda comum, como no exemplo abaixo:
 
 <img src="https://i7x7p5b7.stackpathcdn.com/codrops/wp-content/uploads/2015/02/bordercollapse.png" alt="exemplo de uma tabela com borda separada versus uma com borda compartilhada">
+
+
+## 💭 Alternativa
+
+Depois de ter terminado o projeto (ou de ter achado que terminei), foi impossível não continuar pensando nele e em formas de melhorá-lo. Assim, acabou me ocorrendo outra solução para as classes e acho que vale deixar registrado aqui.
+
+No HTML, ao invés de usar 3 classes diferentes  (```"tabela-padrao"``` para as duas tabelas e ```"cabecalho-tabela-moda"``` e ```"cabecalho-tabela-casa"``` para o cabeçalho de cada tabela, respectivamente), eu usaria somente uma classe diferente para cada tabela:
+```
+<table class="tabela-moda">
+<table class="tabela-casa">
+```
+E no CSS usaria as combinações de classe+tag para o estilo:
+
+```
+.tabela-moda th{
+    color: #ffffff;
+    background-color: #BB86FC;
+    padding: 5px;
+}
+
+.tabela-moda td{
+    color: #ffffff;
+    background-color: #424250;
+    padding: 5px;
+}
+
+.tabela-casa th{
+    color: #ffffff;
+    background-color: #00C4B4;
+    padding: 5px;
+}
+
+.tabela-casa td{
+    color: #ffffff;
+    background-color: #424250;
+    padding: 5px;
+}
+```
+Esse CSS fica um pouco mais longo que o que o do arquivo, porém me parece mais organizado. Não cheguei a uma conclusão de qual dos dois seria melhor, mas fiquei feliz de ter conseguido pensar em duas soluções diferentes e que acredito serem boas. 
