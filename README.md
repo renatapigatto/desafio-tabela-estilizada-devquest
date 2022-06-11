@@ -3,7 +3,6 @@
 Esse repositório contém o primeiro desafio do curso DevQuest, no qual os alunos deveriam usar seus conhecimentos básicos de HTML e CSS para criar duas tabelas iguais ao exemplo abaixo:
 <br></br>
 <img src="./src/exemplo-tabelas.png" alt="exemplo das tabelas a serem recriadas">
-<br></br>
 
 ## ❗ Materiais & Regras
 
